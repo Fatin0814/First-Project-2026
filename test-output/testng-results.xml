@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SampleTest by groups" duration-ms="38" started-at="2026-04-05T12:58:06Z" finished-at="2026-04-05T12:58:07Z">
+    <groups>
+      <group name="regression">
+        <method signature="Group.test3()[pri:0, instance:org.testng.test.sample.Group@402bba4f]" name="test3" class="org.testng.test.sample.Group"/>
+        <method signature="Group.test6()[pri:0, instance:org.testng.test.sample.Group@402bba4f]" name="test6" class="org.testng.test.sample.Group"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="GRP-regression" duration-ms="38" started-at="2026-04-05T12:58:06Z" finished-at="2026-04-05T12:58:07Z">
+      <class name="org.testng.test.sample.Group">
+        <test-method status="PASS" signature="test3()[pri:0, instance:org.testng.test.sample.Group@402bba4f]" name="test3" duration-ms="9" started-at="2026-04-05T12:58:06Z" finished-at="2026-04-05T12:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test6()[pri:0, instance:org.testng.test.sample.Group@402bba4f]" name="test6" duration-ms="0" started-at="2026-04-05T12:58:07Z" finished-at="2026-04-05T12:58:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+      </class> <!-- org.testng.test.sample.Group -->
+    </test> <!-- GRP-regression -->
+  </suite> <!-- SampleTest by groups -->
+</testng-results>
